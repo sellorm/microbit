@@ -1,3 +1,5 @@
+# Displays system temperature (not ambient temp)
+#
 from microbit import display, temperature, sleep, button_a, button_b
 
 while True:

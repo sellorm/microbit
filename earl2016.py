@@ -1,4 +1,8 @@
 # EARL Banners and junk
+# skip through options - lines on the the display, and choose one to select that message
+# A Cycles through the options
+# B selects that option. First press of B just plays that option once, the second puts it into an infinite loop
+#
 from microbit import Image, display, sleep, button_a, button_b
 
 # set up opts and current positions
@@ -56,11 +60,11 @@ r270 = Image('00009:09090:90900:90900:99999:')
 r315 = Image('00000:09900:90999:09000:00900:')
 
 ## set rotate delay
-delay = 200
+delay = 50
 
 def rotater():
     display.show('R')
-    sleep(delay*4)
+    sleep(delay*7)
     display.show(r45)
     sleep(delay)
     display.show(r90)

@@ -1,3 +1,5 @@
+# simple looping bar image
+#
 from microbit import Image, display
 
 image1 = Image('00000:00000:12300:00000:00000:')

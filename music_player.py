@@ -1,6 +1,7 @@
 # music player for all internal tunes
 # button A - next tracks
 # button B - play
+# You must wait for a track to finish before trying to scroll through the tracks
 from microbit import display, button_a, button_b, Image, sleep
 import music
 

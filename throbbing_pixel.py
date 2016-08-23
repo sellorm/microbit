@@ -1,3 +1,5 @@
+# single LED fades in/out
+#
 from microbit import Image, display
 
 image1 = Image('00000:00000:00900:00000:00000:')

@@ -1,4 +1,6 @@
 # digital compass
+# couldn't get this towork properly though
+#
 from microbit import *
 
 # Image.ARROW_NW

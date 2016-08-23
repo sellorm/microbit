@@ -1,4 +1,6 @@
 # built-in image browser
+# Button A scrolls backwards and button B forwards
+#
 from microbit import Image, display, button_a, button_b, sleep
 
 names = [

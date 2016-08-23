@@ -1,4 +1,6 @@
+# The kids named the microbit "Betty"
 # Betty says hello, then winks
+#
 from microbit import Image, display, sleep
 
 blink = Image('00000:09000:00000:00000:00000:')
